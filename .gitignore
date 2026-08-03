@@ -1,0 +1,20 @@
+/target
+/result
+/.direnv
+/.clarity
+# Ignore pre-rename local runtime state; it may contain credentials and logs.
+/.undernet
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# Local databases and their SQLite sidecars
+*.db
+*.db-shm
+*.db-wal
