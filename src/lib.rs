@@ -1,3 +1,4 @@
+pub mod bootstrap;
 pub mod coordination;
 pub mod protocol;
 pub mod runtime;
